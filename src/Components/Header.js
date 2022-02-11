@@ -1,5 +1,5 @@
 import React from "react";
-import { Logo } from "../assets/images";
+import { DownIcon, Logo } from "../assets/images";
 import "../styles.css";
 const Header = () => {
   return (
@@ -7,7 +7,9 @@ const Header = () => {
       <Logo />
       <nav>
         <p className="active">Home</p>
-        <p>Products </p>
+        <p>
+          Products <DownIcon />
+        </p>
         <p>Investment Club</p>
         <p>Blog</p>
         <p>About us</p>
