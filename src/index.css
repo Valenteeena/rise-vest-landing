@@ -1,8 +1,17 @@
+@font-face {
+  font-family: "TomatoGroteskLight";
+  src: url("/public/font/TomatoGrotesk-Light.otf");
+}
+@font-face {
+  font-family: "TomatoGroteskNormal";
+  src: url("/public/font/TomatoGrotesk-Medium.otf");
+}
+*{
+  font-family: "TomatoGroteskLight" ;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

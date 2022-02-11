@@ -1,0 +1,104 @@
+
+
+.App {
+    background-color: #ffffff;
+  }
+  .nav-hero{
+      min-height: 660px;
+      background-image: url("/public/hero-bg.svg");
+      background-repeat: no-repeat;
+      background-size: 75%;
+    background-position-x: 50%;
+    background-position-y: 130%;
+  }
+  .header{
+    padding: 1rem 8rem 1rem 8rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav{
+    display: flex;
+}
+
+.header nav p{
+    margin-left: 2rem;
+    color: #07969E;
+        font-size: 16px;
+line-height: 19px;
+font-weight: 200;
+cursor: pointer;
+}
+.active{
+    font-weight: 800;
+    font-family: "TomatoGroteskNormal";
+}
+.hero{
+    display: flex;
+    padding: 2rem 8rem 2rem 6rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.hero-text{
+    width:500px;
+    
+}
+.hero-text h1{
+    color: #07969E;
+    font-size: 56px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-family: "TomatoGroteskNormal";
+
+
+}
+.hero-text p{
+    font-size: 16px;
+    margin: 1rem 0;
+    font-family: "TomatoGroteskNormal";
+    padding: 0;
+    width: 75%;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+
+
+.buttonGroup{
+    display: flex;
+    margin-top: 1.5rem;;
+}
+.buttonGroup button{
+    font-family: "TomatoGroteskLight" !important;
+    background-color: #2d2d2d;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 4px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    height: 48px;
+    width:150px;
+    justify-content: center;
+    cursor: pointer;
+}
+.buttonGroup button span{
+    font-size: 12px;
+    text-align: left;
+    margin-left: .5rem;
+    font-weight: 200;
+
+}
+.buttonGroup button span b{
+    font-size: 14px;
+}
+.sponsors{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 2rem;
+}
