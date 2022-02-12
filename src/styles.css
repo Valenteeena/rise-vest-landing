@@ -219,5 +219,238 @@ margin-top: 2rem;
 .noMargin{
     margin-bottom: 0!important;
 }
+.goals{
+    display: flex;
+   
+    padding: 2rem 8rem 2rem 6rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.goalsText{
+    width: 35%;
+    margin-right: 7rem;
+    color: #2d2d2d;
+}
+.goalsText h3{
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: -0.05em;
+text-align: left;
+margin: 0;
+}
+.goalsText h1{
+    font-family: "TomatoGroteskNormal";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: -0.05em;
+text-align: left;
+margin: 0;
+}
+.goalsText h1 span{
+    color: #8c5ff8;
+    font-family: "TomatoGroteskNormal";
+}
+.goalsText p{
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin: .5rem 0 1.5rem;
+}
+.goalsText button{
+    background: #07969E;
+border-radius: 5px;
+width: 160px;
+height: 48px;
+color: white;
+border: none;
+font-weight: bold;
+font-size: 16px;
+}
+.regulation{
+    background-image: url("/public/bg.svg");
+    background-size: 110%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    min-height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.regulation div{
+    width: 45%;
+    text-align: center;
+    color: #2d2d2d;
+}
+.regulation div h1{
+    font-family: "TomatoGroteskNormal";
+margin: 0;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: -0.05em;
+text-align: center;
 
+}
+.regulation div p{
+    color: #4A5050;
 
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.testimonial{
+    padding: 2rem ;
+}
+.testimonial h1{
+    margin: 0;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -5%;
+    text-align: center;
+    color: #40BBC3;
+}
+.testimonial > p{
+    font-family: "TomatoGroteskNormal";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: -0.01em;
+margin:.5rem auto 1.5rem;
+width:45%;
+text-align: center;
+color: #4A5050;
+
+}
+.testi{
+    height: 248px;
+box-shadow: 0px 12px 24px rgba(64, 187, 195, 0.15);
+border-radius: 10px;
+margin-right: 1rem;
+padding:24px;
+}
+.testi >p {
+    height:140px;
+    font-size: 16px;
+line-height: 24px;
+color: #4A5050;
+}
+.testi > div{
+    margin-top: 2rem;
+    display:flex;
+}
+.testi > div img{
+    margin-right: 1rem;
+}
+.community{
+    display: flex;
+    padding: 2rem 8rem 2rem 6rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem 0
+}
+.comm-text{
+    width: 40%;
+    color: #2d2d2d;
+}
+.comm-text h1{
+margin: 0;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: -0.05em;
+text-align: left;
+
+}
+.comm-text p{
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.comm-text button
+{
+    background:#A0DDE2;
+    width: 218px;
+height: 48px;
+border-radius: 5px;
+border: none;
+font-weight: 600;
+font-size: 16px;
+margin-top: 1rem;
+}
+.download {
+    padding: 2rem 4rem;
+    margin: 0 auto 2rem;
+    width:80%;
+    max-height: 394px;
+    background: #ECFEFE;
+border-radius: 50px;
+display: flex;
+align-items: center;
+overflow:hidden;
+}
+.download > div{
+    width: 70%;    margin-top: 5rem;
+}
+.download div h4{
+color: #07969e;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin:0;
+font-family: "TomatoGroteskNormal";
+
+}
+.download img{
+    margin-top: 8rem;
+}
+.download div h1{
+    width: 65%;
+    margin:0;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: -0.05em;
+text-align: left;
+}
+.download div p{
+    color: #4a5050;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    width: 80%;
+    margin: auto;
+}
