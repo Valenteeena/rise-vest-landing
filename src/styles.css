@@ -134,7 +134,8 @@ cursor: pointer;
     color: #07969E;
 }
 .assets{
-    padding: 2rem 8rem 2rem 6rem;
+    padding: 2rem 8rem 2rem 8rem;
+    /* width: 85%; */
     
 }
 .assets h1{
@@ -153,7 +154,8 @@ cursor: pointer;
 }
 .assets main {
     display: flex;
-
+    justify-content: space-between;
+margin-top: 2rem;
 }
 .assets main >div{
     width: 300px ;
@@ -174,6 +176,12 @@ cursor: pointer;
     border-radius: 16px;
     height: 213px;
 }
+.pur{
+    background-color: #F6F2FF;
+}
+.blu{
+    background-color: #ECFEFE;
+}
 
 .circle{
     background-color: white;
@@ -191,11 +199,13 @@ cursor: pointer;
     background-color: white;
     text-align: center;
     padding: 3rem .5rem;
+    max-height: 250px;
+    min-height: 250px;
 }
 .content h3{
     color: #4a5050;
     font-size: 24px;
-
+    margin-bottom: 0.7rem;
 }
 .content p{
     color: #4a5050;
@@ -209,4 +219,5 @@ cursor: pointer;
 .noMargin{
     margin-bottom: 0!important;
 }
+
 
